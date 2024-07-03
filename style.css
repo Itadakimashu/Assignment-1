@@ -1,0 +1,81 @@
+
+.primary-background{
+    background-color: #1A187A;
+}
+
+.light-blue-background{
+    background-color: #adc2d7;
+}
+
+.primary-font{
+    color: 1A187A;
+}
+
+.banner-carousel{
+    background: url('images/hero_background.png')no-repeat center center;
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.features{
+    height: 450px;   
+}
+
+.card{
+    background-color: #ededed;
+}
+
+.fixed-card {
+    width: 130px;
+    height: 130px;
+}
+
+.products{
+    margin-top: 100px;
+}
+
+footer{
+    background-color: #0e071b;
+    color: #625e6a;
+}
+
+
+.banner-footer {
+    background-color: #6f42c1;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.banner-footer img{
+    width: 421px;
+    height: 342px;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .features{
+        height: auto;
+        text-align: center;
+    }
+    .left-feature img{
+        width: 50%;
+    }
+    .features button{
+        width: 50%;
+        margin: auto;
+    }
+
+    /* .banner2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .banner img {
+        max-width: 50%;
+    } */
+    
+}
